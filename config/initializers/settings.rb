@@ -1,0 +1,8 @@
+
+RECAPTCHA_PRIVATE="6LfwZ9cSAAAAAFXBW3z0LciYis-FepSkY0V3TYhC"
+RECAPTCHA_PUBLIC="6LfwZ9cSAAAAABKXiiORFJ41RnBqZwczaaOmkPnT"
+
+Panmind::Recaptcha.set(
+    :private_key => RECAPTCHA_PRIVATE, 
+    :public_key  => RECAPTCHA_PUBLIC
+)

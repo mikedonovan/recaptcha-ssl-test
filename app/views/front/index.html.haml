@@ -1,0 +1,14 @@
+
+%h1 Captcha 
+
+%p 
+
+This is a comment form
+
+=form_for :message, :url => message_path do |f| 
+  =f.text_area :text
+  =recaptcha :label => 'Are you human?', :theme => 'clean' , :ssl => true
+  =f.submit 
+
+
+
